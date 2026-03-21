@@ -34,7 +34,9 @@ export default function Experiences() {
               <h5 className="mb-2 font-semibold">
                 {exp.role} - <span className="text-sm text-purple-100">{exp.company}</span>
               </h5>
-              <p className="mb-4 text-neutral-400">{exp.description}</p>
+              {exp.expPoints.map((point, i) => (
+                <p key={i} className="mb-4 text-neutral-400">{point}</p>
+              ))}
 
               {/* Technologies */}
               <div className="flex flex-wrap mb-4">

@@ -1,28 +1,34 @@
 import { RiReactjsLine } from 'react-icons/ri';
 import { TbBrandNextjs } from 'react-icons/tb';
-import { FaHtml5, FaCss3Alt, FaJs, FaBootstrap, FaSass, FaPhp, FaMobileAlt } from 'react-icons/fa';
+import { FaHtml5, FaCss3Alt, FaJs, FaBootstrap, FaSass, FaPhp, FaDocker, FaVuejs, FaGithub, FaBitbucket } from 'react-icons/fa';
 import { RiTailwindCssFill } from 'react-icons/ri';
 import { DiJqueryLogo, DiMysql } from 'react-icons/di';
-import { SiTypescript, SiFirebase } from 'react-icons/si';
+import { SiPrimevue, SiJira, SiAxios } from 'react-icons/si';
+import { FaLaravel } from "react-icons/fa6";
 import { TbSql } from 'react-icons/tb';
 import { motion } from 'framer-motion';
 
 const techStack = [
   { icon: <FaHtml5 className='text-7xl text-orange-500' />, name: 'HTML5', border: 'border-orange-800' },
   { icon: <FaCss3Alt className='text-7xl text-blue-400' />, name: 'CSS3', border: 'border-blue-800' },
-  { icon: <FaJs className='text-7xl text-yellow-400' />, name: 'JavaScript', border: 'border-yellow-800' },
-  { icon: <SiTypescript className='text-7xl text-sky-400' />, name: 'TypeScript', border: 'border-sky-800' },
   { icon: <FaBootstrap className='text-7xl text-purple-400' />, name: 'Bootstrap', border: 'border-purple-800' },
   { icon: <RiTailwindCssFill className='text-7xl text-cyan-400' />, name: 'Tailwind', border: 'border-neutral-800' },
   { icon: <FaSass className='text-7xl text-pink-400' />, name: 'Sass', border: 'border-pink-800' },
+  { icon: <FaJs className='text-7xl text-yellow-400' />, name: 'JavaScript', border: 'border-yellow-800' },
   { icon: <DiJqueryLogo className='text-7xl text-blue-900' />, name: 'jQuery', border: 'border-blue-800' },
+  { icon: <FaVuejs className='text-7xl text-green-400' />, name: 'VueJs', border: 'border-green-800' },
   { icon: <RiReactjsLine className='text-7xl text-cyan-400' />, name: 'React', border: 'border-neutral-800' },
   { icon: <TbBrandNextjs className='text-7xl text-cyan-400' />, name: 'Next.js', border: 'border-neutral-800' },
-  // { icon: <FaPhp className='text-7xl text-indigo-400' />, name: 'PHP', border: 'border-indigo-800' },
-  // { icon: <TbSql className='text-7xl text-gray-400' />, name: 'SQL', border: 'border-gray-800' },
-  // { icon: <DiMysql className='text-7xl text-amber-400' />, name: 'MySQL', border: 'border-amber-800' },
-  { icon: <SiFirebase className='text-7xl text-yellow-500' />, name: 'Firebase', border: 'border-yellow-700' },
-  { icon: <FaMobileAlt className='text-7xl text-cyan-400' />, name: 'React Native', border: 'border-cyan-700' },
+  { icon: <SiPrimevue className='text-7xl text-green-500' />, name: 'PrimeVue', border: 'border-green-700' },
+  { icon: <FaPhp className='text-7xl text-indigo-400' />, name: 'PHP', border: 'border-indigo-800' },
+  { icon: <FaLaravel className='text-7xl text-red-400' />, name: 'Laravel', border: 'border-red-800' },
+  { icon: <TbSql className='text-7xl text-gray-400' />, name: 'SQL', border: 'border-gray-800' },
+  { icon: <DiMysql className='text-7xl text-amber-400' />, name: 'MySQL', border: 'border-amber-800' },
+  { icon: <FaDocker className='text-7xl text-cyan-400' />, name: 'Docker', border: 'border-neutral-800' },
+  { icon: <FaGithub className='text-7xl text-gray-400' />, name: 'GitHub', border: 'border-gray-800' },
+  { icon: <FaBitbucket className='text-7xl text-blue-400' />, name: 'Bitbucket', border: 'border-blue-800' },
+  { icon: <SiJira className='text-7xl text-blue-400' />, name: 'Jira', border: 'border-blue-800' },
+  { icon: <SiAxios className='text-7xl text-gray-400' />, name: 'Axios', border: 'border-gray-800' },
 ];
 
 export default function Technologies() {

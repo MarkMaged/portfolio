@@ -16,7 +16,7 @@ export default function Education() {
                 whileInView={{opacity:1, x:0}}
                 initial={{opacity:0, x:-100}}
                 transition={{duration:0.5}}
-                className="w-full lg:w-1/4">
+                className="bg-white rounded-lg m-10">
                   <img className='mb-6 rounded-lg' src={EDUCATION.image} alt={EDUCATION.Name} width={250} height={250}/>
                 </motion.div>
                 <motion.div 
@@ -25,8 +25,8 @@ export default function Education() {
                 transition={{duration:0.5}}
                 className="w-full mt-10 max-w-xl lg:w-3/4">
                     <h3 className='mb-2 font-semibold ps-4'>{EDUCATION.Name}</h3>
-                    {/* <p className='mb-4 text-neutral-400'>{EDUCATION.GPA}</p>
-                    <p className='mb-4 text-neutral-400'>{EDUCATION.GradPro}</p> */}
+                    {/* <p className='mb-4 text-neutral-400'>{EDUCATION.GPA}</p>*/}
+                    <p className='mb-4 text-neutral-400'>{EDUCATION.GradPro}</p> 
                 </motion.div>
               </div>
           </div>
