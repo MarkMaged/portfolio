@@ -1,4 +1,4 @@
-import aboutPic from "../../assets/Fady.png"
+import aboutPic from "../../assets/Mark.png"
 import { ABOUT_TEXT } from '../../constants'
 import { motion } from "framer-motion"
 
@@ -16,7 +16,7 @@ export default function About() {
             transition={{duration:0.5}}
             className="w-full lg:w-1/2 lg:p-8">
                 <div className="flex items-center justify-center">
-                    <img className='w-3/4 rounded-lg' src={aboutPic} alt="Mahmoud Hussein" />
+                    <img className='w-3/4 rounded-lg myImage' src={aboutPic} alt="Mark Maged" />
                 </div>
             </motion.div>
             <motion.div

@@ -150,8 +150,8 @@ export const PROJECTS = [
 
 export const CONTACT = {
   address: "Cairo , Egypt",
-  phoneNo: "+20 127 855 8947",
-  email: "fadyghobrial123@gmail.com",
+  phoneNo: "+20 102 702 2138",
+  email: "markmaged399@gmail.com",
 };
 
 export const EDUCATION = {

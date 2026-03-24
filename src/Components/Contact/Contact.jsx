@@ -30,7 +30,7 @@ export default function Contact() {
             whileInView={{opacity:1, x:0}}
             initial ={{opacity : 0, x:-100}}
             transition={{duration:1}}
-            href="#" className='border-b no-underline'>{CONTACT.email}</motion.a>
+            href="https://mail.google.com/mail/?view=cm&fs=1&to=markmaged399@gmail.com&su=Portfolio%20Inquiry&body=Hello%20Marc," target="_blank" className='border-b no-underline'>{CONTACT.email}</motion.a>
         </div>
     </div>
   )

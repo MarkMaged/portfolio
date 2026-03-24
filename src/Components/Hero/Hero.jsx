@@ -1,6 +1,6 @@
 import React from 'react'
 import { HERO_CONTENT } from '../../constants'
-import profilePic from "../../assets/Fady.png"
+import profilePic from "../../assets/Mark.png"
 import { motion } from "framer-motion"
 
 const container = (delay) =>({
@@ -47,7 +47,7 @@ export default function Hero() {
                         initial = {{x : 100 , opacity : 0}}
                         animate = {{x : 0, opacity :1}}
                         transition={{duration : 1, delay : 1.2}}
-                        className='w-3/4 rounded-lg' src={profilePic} alt="Mahmoud Hussein"/>
+                        className='w-3/4 rounded-lg myImage' src={profilePic} alt="Mark Maged"/>
                     </div>
                 </div>
             </div>
